@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - Notify - Meeting Reminders</title>
+    <link rel="icon" type="image/png" href="icon.png">
     <style>
         * {
             margin: 0;
@@ -30,12 +31,34 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
         }
 
-        h1 {
-            font-size: 2.5rem;
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .header-with-icon {
+            display: flex;
+            align-items: center;
+            gap: 15px;
             margin-bottom: 30px;
-            color: #1a202c;
             border-bottom: 2px solid #edf2f7;
             padding-bottom: 20px;
+        }
+
+        .app-icon-small {
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1a202c;
+            border: none;
+            padding: 0;
+            margin: 0;
         }
 
         h2 {
@@ -90,7 +113,10 @@
     <div class="container">
         <a href="index.html" class="back-link">← Back to Home</a>
 
-        <h1>Terms of Service</h1>
+        <div class="header-with-icon">
+            <img src="icon.png" alt="Notify Logo" class="app-icon-small">
+            <h1>Terms of Service</h1>
+        </div>
         <p><strong>Last Updated:</strong> February 24, 2026</p>
 
         <p>By using the Notify - Meeting Reminders app, you agree to these Terms of Service. Please read them carefully.
