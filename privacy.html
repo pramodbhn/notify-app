@@ -130,32 +130,63 @@
             data to
             our servers.</p>
 
-        <h3>Calendar Data</h3>
+        <h3>Calendar Data and Google API Services User Data Policy</h3>
         <p>Notify - Meeting Reminders requests access to your calendar solely to display your upcoming events and
             provide reminders
             within
             the app. This data is:</p>
         <ul>
             <li>Read directly from your device's local calendar store (EventKit) or fetched directly via
-                <strong>official Google and Microsoft APIs</strong>.</li>
+                <strong>official Google and Microsoft APIs</strong>.
+            </li>
             <li>Processed entirely <strong>locally on your Mac</strong>.</li>
             <li>Never uploaded to any external server or cloud service by us.</li>
         </ul>
+        <p><strong>Google API Services User Data Policy (Limited Use):</strong> Notify - Meeting Reminders's use and
+            transfer to any other app of information received from Google APIs will adhere to the <a
+                href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API
+                Services User Data Policy</a>, including the Limited Use requirements. Specifically:</p>
+        <ul>
+            <li>We do not use or transfer your data for serving ads, including retargeting, personalized, or
+                interest-based advertising.</li>
+            <li>We do not allow humans to read your data unless we have your affirmative agreement for specific
+                messages, doing so is necessary for security purposes such as investigating abuse, to comply with
+                applicable law, or for the app's internal operations and the data (including derivations) have been
+                aggregated and anonymized.</li>
+            <li>We do not transfer or sell your data to third parties like advertising platforms, data brokers, or any
+                information resellers.</li>
+            <li>We do not use or transfer your data to train generalized/non-personalized machine learning (ML) or
+                artificial intelligence (AI) models.</li>
+        </ul>
 
-        <h2>2. Data Storage</h2>
+        <h2>2. Data Storage and Protection</h2>
         <p>All app preferences (like theme, refresh interval, and enabled calendars) are stored locally on your device
             using standard macOS user defaults.</p>
+        <p><strong>Data Protection:</strong> Your calendar data fetched from Google Workspace APIs is processed locally
+            and protected using industry-standard encryption. All communication with Google APIs occurs exclusively over
+            secure, encrypted HTTPS (TLS) connections to protect your sensitive data in transit. We do not collect,
+            store, or transmit any OAuth tokens to our servers; they are kept securely in your local macOS Keychain,
+            leveraging strong, native OS-level encryption.</p>
 
-        <h2>3. Third-Party Services</h2>
+        <h2>3. Data Retention and Deletion</h2>
+        <p><strong>Data Retention:</strong> Notify - Meeting Reminders is a local-only macOS application. We do not
+            retain, store, or log any of your Google user data on any external servers. Your calendar events are
+            temporarily cached locally on your device solely for the duration necessary to display them in the app.</p>
+        <p><strong>Data Deletion:</strong> You have full control over your data. To delete your locally cached Google
+            user data and revoke access, simply disconnect your Google account within the app's settings. Doing so will
+            immediately and permanently delete the OAuth tokens from your macOS Keychain and wipe all associated cached
+            calendar events from your device. You may also uninstall the app to clear all local data entirely.</p>
+
+        <h2>4. Third-Party Services</h2>
         <p>We do not use any third-party analytics, tracking services, or advertising SDKs. The app functions entirely
             offline (except for syncing your calendars with iCloud/Google/etc., which is handled by macOS system
-            services, not by Notify - Meeting Reminders).</p>
+            services, or through direct, secure API connections by Notify - Meeting Reminders).</p>
 
-        <h2>4. Changes to This Policy</h2>
+        <h2>5. Changes to This Policy</h2>
         <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
             Privacy Policy on this page.</p>
 
-        <h2>5. Contact Us</h2>
+        <h2>6. Contact Us</h2>
         <p>If you have any questions about this Privacy Policy, please contact us via our <a
                 href="https://github.com/pramodbhn/notify-app/issues">GitHub Issues</a> page.</p>
 
